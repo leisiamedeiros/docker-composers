@@ -7,7 +7,7 @@ by using central repositories that are accessible from other environments.
 
 # How can I start?
 
-Jus do it and you can go to `http://localhost:8081/` and see!
+Jus execute the command bellow and go to the adress on your browser `http://localhost:8081/`
 
 ```bash
 $ docker-compose -f nexus-docker-compose.yml up -d
@@ -21,8 +21,8 @@ Default user is `admin` and the uniquely generated password can be found in the 
 
 ## Prerequisites
 
-Install the nuget.exe CLI by downloading it from [nuget.org](https://dist.nuget.org/win-x86-commandline/latest/nuget.exe), 
-saving that .exe file to a suitable folder, and adding that folder to your PATH environment variable.
+Install the nuget.exe CLI by downloading it from [nuget.org](https://www.nuget.org/downloads), saving that .exe file 
+to a suitable folder, and adding that folder to your PATH environment variable.
 
 ## Adding Source
 
