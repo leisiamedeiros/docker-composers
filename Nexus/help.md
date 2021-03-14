@@ -31,7 +31,7 @@ nuget sources Add -Name NugetLocalHost -Source http://localhost:8081/repository/
 ```
 
 ## Done!
-Now you can install the package that's available on [nexus](http://localhost:8081/#browse/search/nuget) !! 
+Now you can install the package that's available on `http://localhost:8081/#browse/search/nuget`
 
 For example:
 
