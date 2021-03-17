@@ -15,6 +15,5 @@ $ docker-compose -f "Nexus/nexus-docker-compose.yml" up -d
 
 Default user is `admin` and the uniquely generated password can be found in the `admin.password` file inside the volume. 
 
-
 # Done!
 Now you can configure your sources as you wish!

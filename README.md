@@ -20,6 +20,7 @@ application on your machine, you just need [Docker](https://www.docker.com/get-s
 
 
 - **RavenDb**
+![ravenDb](RavenDb/ravendb.png)
 
 
 # Contribute
@@ -32,6 +33,9 @@ You must create a folder with this structure:
 FolderAppName
 ├── appname-docker-compose.yml
 ├── help.md
+├── appName.png
 ```
 
 You can see the [Nexus](Nexus) folder to get an example.
+
+There's a `help-Template.md` to help you when you go to write about the app.

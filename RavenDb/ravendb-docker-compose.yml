@@ -1,0 +1,16 @@
+version: "3"
+services:
+  ravendb:
+    image: ravendb/ravendb:latest
+    volumes:
+      - ravendb-data:/opt/RavenDB/Server/RavenData
+    container_name: ravendb
+    ports:
+      - "8080:8080"
+      - "38888:38888"
+    environment:
+      RAVEN_Setup_Mode: "None"
+      RAVEN_License_Eula_Accepted: "true"
+
+volumes:
+  ravendb-data:

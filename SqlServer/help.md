@@ -14,7 +14,7 @@ $ docker-compose -f "SqlServer/mssql-docker-compose.yml" up -d
 
 Default user is `sa` and the `password` you must change on composer file on `SA_PASSWORD` key.
 
-## Done!
+# Done!
 Now you can connect on your prefered tool!
 
 Other common [tools](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash#connectexternal) to connect to SQL Server include:
