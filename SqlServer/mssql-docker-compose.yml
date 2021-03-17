@@ -1,0 +1,17 @@
+version: "3"
+services:
+  mssql2019:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    volumes:
+      - mssqldbdata:/var/opt/mssql
+    restart: always
+    container_name: mssqlserver2019
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Your!Str0ngPassw"
+      MSSQL_PID: "Express"
+
+volumes:
+  mssqldbdata:
