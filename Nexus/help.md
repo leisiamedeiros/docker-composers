@@ -7,7 +7,7 @@ by using central repositories that are accessible from other environments.
 
 # How can I start?
 
-Jus execute the command bellow and go to the adress on your browser `http://localhost:8081/`
+Just execute the command bellow and go to the adress on your browser `http://localhost:8081/`
 
 ```bash
 $ docker-compose -f "Nexus/nexus-docker-compose.yml" up -d

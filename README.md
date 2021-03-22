@@ -9,15 +9,17 @@ application on your machine, you just need [Docker](https://www.docker.com/get-s
 - **Nexus**
 ![nexus](Nexus/nexus.png)
 
-- **Elastic**
+- **Elastic**  
+WIP
 
-- **Kibana**
+- **Kibana**  
+WIP
 
 - **Sql Server**
 ![sqlserver](SqlServer/sqlserver.png)
 
 - **Postgres with Adminer**
-
+![psqlandadminer](Postgres/postgres-adminer.png)
 
 - **RavenDb**
 ![ravenDb](RavenDb/ravendb.png)

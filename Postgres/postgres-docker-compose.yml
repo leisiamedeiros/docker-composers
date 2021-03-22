@@ -1,0 +1,31 @@
+version: "3"
+
+services:
+  pgsql:
+    image: postgres:latest
+    volumes:
+      - postgresql:/var/lib/postgresql/data
+    container_name: postgresql
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: "@y0urStrongPWD"
+      POSTGRES_USER: "postgres"
+      POSTGRES_DB: "postgres"
+    networks:
+      - pgsql-network
+
+  adminer:
+    image: adminer:latest
+    container_name: adminer
+    ports:
+      - "8080:8080"
+    networks:
+      - pgsql-network
+
+networks:
+  pgsql-network:
+    driver: bridge
+
+volumes:
+  postgresql:
