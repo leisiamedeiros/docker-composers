@@ -4,24 +4,34 @@ This is where we can save our docker composers to use when we want!
 You can use this composers to help you developement on localhost with all this without needing to install the 
 application on your machine, you just need [Docker](https://www.docker.com/get-started) and [Docker-Compose](https://docs.docker.com/compose/)
 
+### Composers List
+- [Nexus](#nexus)
+- [Elastic](#elastic)
+- [Kibana](#kibana)
+- [Sql Server](#sql-server)
+- [Postgres with Adminer](#postgres-with-adminer)
+- [RavenDb](#ravendb)
+- [Redis with RedisInsight](#redis-with-redisinsight)
+
+
 # Applications
 
-- **Nexus**
+### Nexus
 ![nexus](Nexus/nexus.png)
 
-- **Elastic**  
+### Elastic 
 WIP
 
-- **Kibana**  
+### Kibana
 WIP
 
-- **Sql Server**
+### Sql Server
 ![sqlserver](SqlServer/sqlserver.png)
 
-- **Postgres with Adminer**
+### Postgres with Adminer
 ![psqlandadminer](Postgres/postgres-adminer.png)
 
-- **RavenDb**
+### RavenDb
 ![ravenDb](RavenDb/ravendb.png)
 
 
