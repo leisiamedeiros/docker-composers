@@ -6,8 +6,6 @@ application on your machine, you just need [Docker](https://www.docker.com/get-s
 
 ### Composers List
 - [Nexus](#nexus)
-- [Elastic](#elastic)
-- [Kibana](#kibana)
 - [Sql Server](#sql-server)
 - [Postgres with Adminer](#postgres-with-adminer)
 - [RavenDb](#ravendb)
