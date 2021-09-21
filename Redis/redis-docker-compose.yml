@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  rediscache:
+    image: redis:latest
+    container_name: rediscache
+    ports:
+      - "6379:6379"
+  
+  redislabs:
+    image: redislabs/redisinsight:latest
+    container_name: redisinsight
+    volumes:
+      - redisinsight:/db
+    ports:
+      - "8001:8001"
+
+volumes:
+  redisinsight:

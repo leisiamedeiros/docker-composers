@@ -12,27 +12,34 @@ application on your machine, you just need [Docker](https://www.docker.com/get-s
 - [Postgres with Adminer](#postgres-with-adminer)
 - [RavenDb](#ravendb)
 - [Redis with RedisInsight](#redis-with-redisinsight)
-
+- [RabbitMQ](#rabbitmq)
 
 # Applications
 
 ### Nexus
 ![nexus](Nexus/nexus.png)
-
-### Elastic 
-WIP
-
-### Kibana
-WIP
+[help-nexus](Nexus/help.md)
 
 ### Sql Server
 ![sqlserver](SqlServer/sqlserver.png)
+[help-sqlserver](SqlServer/help.md)
 
 ### Postgres with Adminer
 ![psqlandadminer](Postgres/postgres-adminer.png)
+[help-psql](Postgres/help.md)
 
 ### RavenDb
 ![ravenDb](RavenDb/ravendb.png)
+[help-raven](RavenDb/help.md)
+
+### Redis with RedisInsight
+![rediswithinsight](Redis/redis.png)
+[help-redis](Redis/help.md)
+
+### RabbitMQ
+![rabbitmq](RabbitMq/rabbitmq.png)
+[help-rabbitmq](RabbitMq/help.md)
+
 
 
 # Contribute
