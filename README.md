@@ -7,6 +7,7 @@ application on your machine, you just need [Docker](https://www.docker.com/get-s
 ### Composers List
 - [Nexus](#nexus)
 - [Sql Server](#sql-server)
+- [ElasticSearch and Kibana](#elasticsearch-and-kibana)
 - [Postgres with Adminer](#postgres-with-adminer)
 - [RavenDb](#ravendb)
 - [Redis with RedisInsight](#redis-with-redisinsight)
