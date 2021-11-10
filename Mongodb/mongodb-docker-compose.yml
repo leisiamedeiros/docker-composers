@@ -1,0 +1,36 @@
+version: "3"
+
+services:
+  mongodb:
+    image: mongo:latest
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodata:/data/db
+    container_name: mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongoadmin
+      MONGO_INITDB_ROOT_PASSWORD: secret
+    networks:
+      - mongodb-network
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: mongoadmin
+      ME_CONFIG_MONGODB_ADMINPASSWORD: secret
+      ME_CONFIG_MONGODB_SERVER: mongodb
+      ME_CONFIG_OPTIONS_EDITORTHEME: dracula
+    networks:
+      - mongodb-network
+
+networks:
+  mongodb-network:
+    driver: bridge
+
+volumes:
+  mongodata:
