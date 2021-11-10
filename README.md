@@ -1,8 +1,12 @@
 # Docker composers
+
+> RUN YOUR SERVICES ON LOCALHOST WITH DOCKER
+
 This is where we can save our docker composers to use when we want!
 
-You can use this composers to help you developement on localhost with all this without needing to install the 
-application on your machine, you just need [Docker](https://www.docker.com/get-started) and [Docker-Compose](https://docs.docker.com/compose/)
+You can use this composers to help your daily developement with your services on localhost without needing to install it!!
+
+You just need [Docker](https://www.docker.com/get-started) and [Docker-Compose](https://docs.docker.com/compose/)
 
 ### Composers List
 - [RabbitMQ](#rabbitmq)
