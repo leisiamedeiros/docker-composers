@@ -30,7 +30,7 @@
 
 ### ElasticSearch and Kibana
 ![elastickibana](ElasticKibana/kibana.png)
-[help-elastickibana](ElasticKibana/help.md)
+[help-elastickibana](ElasticKibana/README.md)
 
 ### RavenDb
 ![ravenDb](RavenDb/ravendb.png)
