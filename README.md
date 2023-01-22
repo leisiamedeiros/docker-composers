@@ -46,7 +46,7 @@
 [help-psql](Postgres/README.md)
 
 ### MySQL with Adminer
-![mysqlandadminer](MySQL/postgres-adminer.png)
+![mysqlandadminer](MySQL/mysql-adminer.png)
 [help-mysql](MySQL/README.md)
 
 ### Nexus
